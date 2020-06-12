@@ -31,7 +31,6 @@ jobs:
       with:
         cmd: install # will run `yarn install` command
     
-    # Yarn Build
     - name: Build React App
       run: yarn build
       
